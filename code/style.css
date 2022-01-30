@@ -10,12 +10,14 @@ body{
 
 
 .text-new-game{
-    padding-top: 120px;
+   size: 0.2em;
+   padding-bottom: 10%;
 }
 .de{
    align-items: center;
     display: flex;
     position: absolute;
+    padding-top:15%;
     margin-left: 45%;
     flex-direction: column;
     
@@ -72,6 +74,7 @@ button{
     box-shadow: 0px 9px 23px rgba(0,0,0,0.5);
 }
 .btng{
+    margin-top: 30px;
     border: none;
     display: flex;
     justify-content: space-around;
@@ -183,6 +186,12 @@ p{
     font-weight: 400;
     font-size:2em;
 
+}
+.bi-plus-circle{
+    display: flex;
+    margin-right: 10px;
+    color:rgb(221, 74, 74);
+    font-size:30px;
 }
 .bi-arrow-repeat{
     color:rgb(221, 74, 74);
