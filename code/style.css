@@ -18,6 +18,7 @@ body{
     display: flex;
     position: absolute;
     padding-top:15%;
+  
     margin-left: 45%;
     flex-direction: column;
     
@@ -25,7 +26,9 @@ body{
 .img-de{
 
     display: flex;
-    margin-top: 100%;
+    margin-top: 50%;
+    margin-right: 50%;
+   
     box-shadow: 9px 18px 13px 12px rgb(250, 246, 246);
 }
 button{
@@ -37,6 +40,7 @@ button{
     margin-left: 20px;
     width: 50%;
     display: flex;
+    
     margin-top: 70px;
     justify-content: space-evenly;
     padding: 2%;
@@ -166,9 +170,8 @@ main{
   position: relative;
 }
 .btn-game{
-    
-    justify-content: center;
-    display: flex;
+    margin-left: 20%;
+   display:inline-grid;
 }
 .arrow{
     display: flex;
