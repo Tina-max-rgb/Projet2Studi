@@ -37,7 +37,7 @@ button{
     background: none;
 }
 .score1{
-    margin-left: 20px;
+    margin-left: 40%;
     width: 50%;
     display: flex;
     
@@ -100,12 +100,13 @@ button{
 }
 .point-p1{
     padding-bottom: 100px;
-    margin-left:20px;
+    margin-left:40%;
     display: flex;
     justify-content: flex-start;
 }
 .player1{
     display: flex;
+    margin-left: 45%;
     flex-direction: column;
   
 }
@@ -137,17 +138,17 @@ p.score-actuel-1{
 p.score-actuel-2{
     color: blanchedalmond;
 }
-p.score-global{
-    display: flex;
-    margin-right: 20px;
-    text-align: center;
+#score-global-1{
+    color:rgb(221, 74, 74);
+    font-size: 3.0em;
 }
 #title-p1{
-    font-size: 2.5em;
+  
+    font-size: 3.0em;
     letter-spacing: 0.3em;
     font-weight: 180;
 }
-.score-global-1{
+p.score-global-1{
     font-size: 2.5em;
      margin-left: 15px;
    color:rgb(221, 74, 74);
@@ -155,13 +156,13 @@ p.score-global{
 }
 #title-p2{
   
-    font-size: 2.5em;
+    font-size: 3.0em;
     letter-spacing: 0.3em;
     margin-right: 10px;
     font-weight: 400;
 }
-.score-global-2{
-    font-size: 2.5em;
+#score-global-2{
+    font-size: 3.0em;
     
    color:rgb(221, 74, 74);
 }

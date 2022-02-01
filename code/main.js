@@ -83,12 +83,10 @@ document.querySelector('.arrow').addEventListener('click', function (){
        playing = true;
     
      
-      //document.querySelector('.score-global-1').textContent = '0';
-     // document.querySelector('.score-global-2').textContent = '0';
-      // document.getElementById('.score-actuel-1').textContent = '0';
-      //document.getElementById('.score-actuel-2').textContent = '0';
-       // document.querySelector('.p1').classList.remove('active');
-        //document.querySelector('.p2').classList.remove('active');
-        //document.querySelector('.p1').classList.add('active');
+      document.querySelector('#score-global-1').textContent = '0';
+      document.querySelector('#score-global-2').textContent = '0';
+       document.querySelector('.score-actuel-1').textContent = '0';
+      document.querySelector('.score-actuel-2').textContent = '0';
+  
     }
     
