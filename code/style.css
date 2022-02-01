@@ -13,7 +13,7 @@ body{
    size: 0.2em;
    padding-bottom: 10%;
 }
-.de{
+.dice{
    align-items: center;
     display: flex;
     position: absolute;
@@ -131,10 +131,10 @@ button{
    margin-right: 20px; 
    display: flex;
 }
-p.score-actuel1{
+p.score-actuel-1{
     color:blanchedalmond;
 }
-p.score_actuel2{
+p.score-actuel-2{
     color: blanchedalmond;
 }
 p.score-global{
@@ -147,7 +147,7 @@ p.score-global{
     letter-spacing: 0.3em;
     font-weight: 180;
 }
-.scoreglobal{
+.score-global-1{
     font-size: 2.5em;
      margin-left: 15px;
    color:rgb(221, 74, 74);
@@ -160,7 +160,7 @@ p.score-global{
     margin-right: 10px;
     font-weight: 400;
 }
-.score-global{
+.score-global-2{
     font-size: 2.5em;
     
    color:rgb(221, 74, 74);
@@ -169,10 +169,7 @@ main{
   display: flex;
   position: relative;
 }
-.btn-game{
-    margin-left: 20%;
-   display:inline-grid;
-}
+
 .arrow{
     display: flex;
     justify-content: center;
@@ -180,8 +177,9 @@ main{
 .hold-game{
     justify-content: center;
     display: inline-grid;
+    margin-left: 20%;
 }
-.btn-garder{
+.bt{
 justify-content: center;
 display: flex;
 }
