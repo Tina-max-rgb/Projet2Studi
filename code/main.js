@@ -40,9 +40,11 @@ document.querySelector('.arrow').addEventListener('click', function (){
     if (playing) {
         var de = Math.floor(Math.random() * 3 + 1 );
     
-        var deDom = document.querySelector('.dice');
+        let deDom = document.querySelector('.dice img');
+        
+        //deDom.style.display = 'block';
     
-       deDom.src = '../img/img%20Dé' + de + '.PNG';
+       deDom.src = '../img/img%20Dé.PNG' + de ;
     
     
         if (de !==1){
