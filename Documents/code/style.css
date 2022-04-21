@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'stay_classy_sldtregular';
+    src: url('stay_classy_sldt-webfont.woff2') format('woff2'),
+         url('stay_classy_sldt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'stay_classy_sldtregular';
+    background-color: #b2c0dd;
+    
+    margin:0px;
+    width:100%;
+    height: 100%;
+    font-style: italic;
+    font-size: 16px;
+ 
+}
+#navbar-nav{
+display: inline-block;
+
+}
+#nav-menu{
+    display:flex;
+    justify-content:center;
+
+}
+
+.liste-etablissement{
+    background-color:#e3f2fe;
+}
+
+.margintop{
+    margin-top: 90px; 
+    margin-left:10px;
+    margin-right:10px;
+
+    
+}
+#formulaire{
+display:block;
+flex-direction: column;
+}
+.send-btn{
+    display:flex;
+    justify-content: center;
+}
+#message{
+    display:flex;
+    flex-direction: column;
+
+}
+
+ul{
+    list-style-type: none;  
+}
