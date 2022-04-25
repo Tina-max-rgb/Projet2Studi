@@ -29,7 +29,7 @@ body{
     margin-top: 50%;
     margin-right: 50%;
    
-    box-shadow: 9px 18px 13px 12px rgb(250, 246, 246);
+    box-shadow: 9px 10px 13px 12px rgb(250, 246, 246);
 }
 button{
     border: none;
@@ -91,6 +91,16 @@ button{
     justify-content: space-around;
 }
 
+
+
+
+h3#title-p1-ti::after{
+    position: absolute;
+    content: "\2022";
+    color: rgb(221, 74, 74);
+}
+
+
 .p1{
     margin-top: 5%;
     display: inline-block;
@@ -142,7 +152,7 @@ p.score-actuel-2{
     color:rgb(221, 74, 74);
     font-size: 3.0em;
 }
-#title-p1{
+#title-p1-ti{
   
     font-size: 3.0em;
     letter-spacing: 0.3em;
@@ -154,7 +164,7 @@ p.score-global-1{
    color:rgb(221, 74, 74);
    
 }
-#title-p2{
+#title-p2-ti{
   
     font-size: 3.0em;
     letter-spacing: 0.3em;
